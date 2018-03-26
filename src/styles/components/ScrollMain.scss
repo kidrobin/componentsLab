@@ -1,0 +1,45 @@
+.scroll-text{
+  background: transparent;
+  margin: 5rem auto;
+  font-size: 1rem;
+}
+
+.body-text{
+  color: lightblue;
+  padding: 0 9rem;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.title-text{
+  color: yellow;
+  padding: 0 9rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .body-text{
+    padding: 0
+  }
+
+  .title-text{
+    padding: 0;
+  }
+}
+
+.fade-effect-text{
+    position: fixed;
+    width: 90%;
+    height: 5rem;
+    margin-top: 40vh;
+    background: linear-gradient(to bottom, #2f2f2f73 29%, #2f2f2f 63%);
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: yellow;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
